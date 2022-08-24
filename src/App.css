@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  margin: 0 0 0 10vw;
+  width: 75vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.app-input,
+.app-input:focus,
+.app-input:active {
+  width: 13vw;
+  padding: 0.3vw;
+  height: 2vw;
+  font-size: 1vw;
+  border: solid 0.1vw #123456;
+  border-radius: 0.3vw;
+}
+
+.app-btn {
+  width: 8vw;
+  height: 3vw;
+  background-color: #123456;
+  color: white;
+  font-size: 1vw;
+  margin-top: 2vw;
+  margin-left: 2.8vw;
+  border-radius: 0.3vw;
+}
+
+.app-label {
+  color: #123456;
+  font-size: 1.5vw;
+}
+
+.app-title {
+  color: #123456;
+  margin-left: 2vw;
+}
+
+.form-table {
+  border-collapse: separate;
+  border-spacing: 2vw;
+  vertical-align: top;
+}
+
+.form-td {
+  vertical-align: top;
+}
+
+.list-row {
+  cursor: pointer;
+}
